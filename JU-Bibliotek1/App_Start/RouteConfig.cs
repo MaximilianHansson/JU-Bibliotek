@@ -12,7 +12,7 @@ namespace JU_Bibliotek1
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
+            //This is test nr 2
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
