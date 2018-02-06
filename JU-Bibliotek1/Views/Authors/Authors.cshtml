@@ -4,10 +4,35 @@
 }
 
 <h2>Search for authors</h2>
-<form>
-    <input type="text" placeholder="Name..."/> <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-<table class="table">
-    <tr><td>Title</td><td>Author</td><td>Classification</td><td>ISBN#</td></tr>
+
+<form class="form-inline" action="/action_page.php">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form> 
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Lastname</th>
+            <th>Firstname</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Doe</td>
+            <td>John</td>
+        </tr>
+        <tr>
+            <td>Moe</td>
+            <td>Mary</td>
+        </tr>
+        <tr>
+            <td>Dooley</td>
+            <td>July</td>
+        </tr>
+    </tbody>
 </table>
 
