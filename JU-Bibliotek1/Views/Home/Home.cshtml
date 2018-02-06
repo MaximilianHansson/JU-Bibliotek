@@ -3,5 +3,15 @@
     ViewBag.Title = "Home";
 }
 
-<h2>Home</h2>
+<div class="container">
+    <div class="col-md-8">
+        <h1>Welcome to Jönköping Univerity Library!</h1>
+        <p>Here you can search for both books and authors by following the links bellow.</p>
+        @Html.ActionLink("Search for books", "Index", "Books", new { area = "" }, new { @class = "navbar-brand" }) 
+        @Html.ActionLink("Search for authors", "Index", "Authors", new { area = "" }, new { @class = "navbar-brand" }) 
+    </div>
+    <div class="col-md-4">
+        <h1>News</h1>
+    </div>
+</div>
 
