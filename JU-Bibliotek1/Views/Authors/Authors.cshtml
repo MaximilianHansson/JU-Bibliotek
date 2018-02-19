@@ -3,5 +3,40 @@
     ViewBag.Title = "AuthorSearch";
 }
 
-<h2>AuthorSearch</h2>
+<h2>Search for authors</h2>
+<div class="container">
+    <form class="form-inline" action="/action_page.php">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <br />
+        <button type="submit" class="btn btn-default">Search</button>
+
+    </form>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Lastname</th>
+                <th>Firstname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Doe</td>
+                <td>John</td>
+            </tr>
+            <tr>
+                <td>Moe</td>
+                <td>Mary</td>
+            </tr>
+            <tr>
+                <td>Dooley</td>
+                <td>July</td>
+            </tr>
+            <!--C# CODE HERE-->
+        </tbody>
+    </table>
+</div>
 
