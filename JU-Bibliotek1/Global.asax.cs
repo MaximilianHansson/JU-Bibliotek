@@ -13,6 +13,7 @@ namespace JU_Bibliotek1
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            
         }
     }
 }
